@@ -33,7 +33,7 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-			label = "default";
+			label = "Webb";
 
 			// ------------------------------------------------------------------------------------------------------------
 			// |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |       |
@@ -47,7 +47,7 @@
 &kp ESC			&kp Q			&kp W			&kp E			&kp R			&kp T			&kp Y			&kp U			&kp I				&kp O			&kp P			&kp BSPC
 &kp TAB			&kp A			&kp S			&kp D			&kp F			&kp G			&kp H			&kp J			&kp K				&kp L			&kp SEMI		&kp SQT
 &kp LSHFT		&kp Z			&kp X			&kp C			&kp V			&kp B			&kp N			&kp M			&kp COMMA			&kp DOT			&kp FSLH		&kp RSHFT
-&kp C_MUTE		&kp LGUI		&kp LALT		&kp LCTRL		&mo RET			&kp LOWER		&kp RAISE		&mo SPACE		&kp RCTRL			&kp RALT		&kp RGUI
+&kp C_MUTE		&kp LGUI		&kp LALT		&kp LCTRL		&kp RET			&mo LOWER		&mo RAISE		&kp SPACE		&kp RCTRL			&kp RALT		&kp RGUI
 																								&kp ENTER		&kp RIGHT		&kp UP_ARROW		&kp LEFT		&kp DOWN
 			>;
 
